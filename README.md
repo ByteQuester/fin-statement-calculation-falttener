@@ -2,6 +2,10 @@
 
 This project provides a command-line tool to automate the extraction, analysis, and storage of financial data from SEC filings. It leverages network graph analysis techniques to identify relationships and patterns within the data.
 
+## Tips:
+-Use the company_financials table to dump your data (cik, year columns) for a more streamlined approach (like a CSV dump instead of using the CLI to manually add data).
+-Make sure you populate the index data (by running the full pipeline first) before proceeding to turn data into tables.
+
 ## Features
 
 - **Automated Data Extraction:**  Efficiently fetches financial data from SEC filings for specified companies and time periods.
