@@ -1,0 +1,56 @@
+*.iml
+*.pyc
+.DS_Store
+.eggs
+.python-version
+.tox
+/.mypy_cache/
+/.pytest_cache/
+/venv/
+Arelle.egg-info
+Pipfile
+Pipfile.lock
+__pycache__
+arelle-release*
+arelle/_version.py
+arelle/plugin/EdgarRenderer
+arelle/plugin/EdgarRendererWithBuiltinHtml
+arelle/plugin/FERC
+arelle/plugin/Xince.py
+arelle/plugin/iXBRLViewerPlugin
+arelle/plugin/validate/DQC.py
+arelle/plugin/validate/DQC_US_Rules
+arelle/plugin/validate/DQC_test
+arelle/plugin/validate/ESEF-DQC.py
+arelle/plugin/validate/eforms.py
+arelle/plugin/xendr
+arelle/plugin/xule
+arelleGUI.py
+arelle_release.egg-info
+bin/
+build
+buildRenameX64.bat
+buildRenameX86.bat
+conf-*
+dist
+docs/_build
+docs/source/apidocs
+obj/
+tests/resources/conformance_suites/*
+!tests/resources/conformance_suites/dba/
+!tests/resources/conformance_suites/hmrc/
+!tests/resources/conformance_suites/nl_*/
+tests/resources/packages/
+
+### IDE-specific ignores
+
+# PyCharm
+.idea
+
+# VS Code
+.devcontainer
+.vscode
+
+# Visual Studio
+.vs/
+.test

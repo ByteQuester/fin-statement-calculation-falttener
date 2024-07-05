@@ -1,0 +1,2035 @@
+{
+  "calculationLinkbase": [
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureAccumulatedOtherComprehensiveLossDetails",
+        "definition": "http://www.aarcorp.com/role/DisclosureAccumulatedOtherComprehensiveLossDetails"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:OtherComprehensiveIncomeLossNetOfTax",
+          "label": "us-gaap:OtherComprehensiveIncomeLossNetOfTax"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherComprehensiveIncomeLossBeforeReclassificationsNetOfTax",
+            "label": "(+1) us-gaap:OtherComprehensiveIncomeLossBeforeReclassificationsNetOfTax"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:ReclassificationFromAccumulatedOtherComprehensiveIncomeCurrentPeriodNetOfTax",
+            "label": "(-1) us-gaap:ReclassificationFromAccumulatedOtherComprehensiveIncomeCurrentPeriodNetOfTax"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureAcquisitionDetails",
+        "definition": "http://www.aarcorp.com/role/DisclosureAcquisitionDetails"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:BusinessCombinationRecognizedIdentifiableAssetsAcquiredGoodwillAndLiabilitiesAssumedNet",
+          "label": "us-gaap:BusinessCombinationRecognizedIdentifiableAssetsAcquiredGoodwillAndLiabilitiesAssumedNet"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentAssets",
+            "label": "(+1) us-gaap:BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentAssets"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedPropertyPlantAndEquipment",
+            "label": "(+1) us-gaap:BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedPropertyPlantAndEquipment"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureBusinessSegmentInformationReconcilesOfSegmentGrossProfitToIncomeDetails",
+        "definition": "http://www.aarcorp.com/role/DisclosureBusinessSegmentInformationReconcilesOfSegmentGrossProfitToIncomeDetails"
+      },
+      {}
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureDiscontinuedOperationsDetails",
+        "definition": "http://www.aarcorp.com/role/DisclosureDiscontinuedOperationsDetails"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:AssetsOfDisposalGroupIncludingDiscontinuedOperation",
+          "label": "us-gaap:AssetsOfDisposalGroupIncludingDiscontinuedOperation"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationOtherCurrentAssets",
+            "label": "(+1) us-gaap:DisposalGroupIncludingDiscontinuedOperationOtherCurrentAssets"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationAccountsNotesAndLoansReceivableNet",
+            "label": "(+1) us-gaap:DisposalGroupIncludingDiscontinuedOperationAccountsNotesAndLoansReceivableNet"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationInventoryCurrent",
+            "label": "(+1) us-gaap:DisposalGroupIncludingDiscontinuedOperationInventoryCurrent"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ],
+      [
+        "concept",
+        {
+          "name": "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTax",
+          "label": "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTax"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation",
+            "label": "(-1) us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationBeforeIncomeTax",
+            "label": "(+1) us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationBeforeIncomeTax"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationCostsOfGoodsSold",
+              "label": "(-1) us-gaap:DisposalGroupIncludingDiscontinuedOperationCostsOfGoodsSold"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationGeneralAndAdministrativeExpense",
+              "label": "(-1) us-gaap:DisposalGroupIncludingDiscontinuedOperationGeneralAndAdministrativeExpense"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:AssetImpairmentCharges",
+              "label": "(-1) us-gaap:AssetImpairmentCharges"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationRevenue",
+              "label": "(+1) us-gaap:DisposalGroupIncludingDiscontinuedOperationRevenue"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ]
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureEarningsPerShareDetails",
+        "definition": "http://www.aarcorp.com/role/DisclosureEarningsPerShareDetails"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+          "label": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+        },
+        {},
+        [
+          "concept",
+          {
+            "name": "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic",
+            "label": "(+1) us-gaap:WeightedAverageNumberOfSharesOutstandingBasic"
+          },
+          {
+            "weight": "1 "
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncrementalCommonSharesAttributableToShareBasedPaymentArrangements",
+            "label": "(+1) us-gaap:IncrementalCommonSharesAttributableToShareBasedPaymentArrangements"
+          },
+          {
+            "weight": "1 "
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureEmployeeBenefitPlansDetails",
+        "definition": "http://www.aarcorp.com/role/DisclosureEmployeeBenefitPlansDetails"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:DefinedBenefitPlanAmountsRecognizedInBalanceSheet",
+          "label": "us-gaap:DefinedBenefitPlanAmountsRecognizedInBalanceSheet"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:PensionAndOtherPostretirementDefinedBenefitPlansCurrentLiabilities",
+            "label": "(-1) us-gaap:PensionAndOtherPostretirementDefinedBenefitPlansCurrentLiabilities"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:PensionAndOtherPostretirementDefinedBenefitPlansLiabilitiesNoncurrent",
+            "label": "(-1) us-gaap:PensionAndOtherPostretirementDefinedBenefitPlansLiabilitiesNoncurrent"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ]
+      ],
+      [
+        "concept",
+        {
+          "name": "us-gaap:DefinedBenefitPlanFundedStatusOfPlan",
+          "label": "us-gaap:DefinedBenefitPlanFundedStatusOfPlan"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanFairValueOfPlanAssets",
+            "label": "(+1) us-gaap:DefinedBenefitPlanFairValueOfPlanAssets"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanBenefitObligation",
+            "label": "(-1) us-gaap:DefinedBenefitPlanBenefitObligation"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ]
+      ],
+      [
+        "concept",
+        {
+          "name": "us-gaap:DefinedBenefitPlanNetPeriodicBenefitCost",
+          "label": "us-gaap:DefinedBenefitPlanNetPeriodicBenefitCost"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanExpectedReturnOnPlanAssets",
+            "label": "(-1) us-gaap:DefinedBenefitPlanExpectedReturnOnPlanAssets"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanCurtailments",
+            "label": "(+1) us-gaap:DefinedBenefitPlanCurtailments"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanSettlementsBenefitObligation",
+            "label": "(+1) us-gaap:DefinedBenefitPlanSettlementsBenefitObligation"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanAmortizationOfPriorServiceCostCredit",
+            "label": "(+1) us-gaap:DefinedBenefitPlanAmortizationOfPriorServiceCostCredit"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanAmortizationOfGainsLosses",
+            "label": "(-1) us-gaap:DefinedBenefitPlanAmortizationOfGainsLosses"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureFinancingArrangementsDetails",
+        "definition": "http://www.aarcorp.com/role/DisclosureFinancingArrangementsDetails"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+          "label": "us-gaap:LongTermDebtAndCapitalLeaseObligations"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:DebtLongtermAndShorttermCombinedAmount",
+            "label": "(+1) us-gaap:DebtLongtermAndShorttermCombinedAmount"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredFinanceCostsNet",
+            "label": "(-1) us-gaap:DeferredFinanceCostsNet"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureIncomeTaxesDetails",
+        "definition": "http://www.aarcorp.com/role/DisclosureIncomeTaxesDetails"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:DeferredTaxAssetsLiabilitiesNet",
+          "label": "us-gaap:DeferredTaxAssetsLiabilitiesNet"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredIncomeTaxLiabilities",
+            "label": "(-1) us-gaap:DeferredIncomeTaxLiabilities"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:DeferredTaxLiabilitiesOther",
+              "label": "(+1) us-gaap:DeferredTaxLiabilitiesOther"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredTaxAssetsNet",
+            "label": "(+1) us-gaap:DeferredTaxAssetsNet"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:DeferredTaxAssetsGross",
+              "label": "(+1) us-gaap:DeferredTaxAssetsGross"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            },
+            [
+              "concept",
+              {
+                "name": "us-gaap:DeferredTaxAssetsDeferredIncome",
+                "label": "(+1) us-gaap:DeferredTaxAssetsDeferredIncome"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:DeferredTaxAssetsInventory",
+                "label": "(+1) us-gaap:DeferredTaxAssetsInventory"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefitsPostretirementBenefits",
+                "label": "(+1) us-gaap:DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefitsPostretirementBenefits"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:DeferredTaxAssetsOperatingLossCarryforwardsStateAndLocal",
+                "label": "(+1) us-gaap:DeferredTaxAssetsOperatingLossCarryforwardsStateAndLocal"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefitsEmployeeBenefits",
+                "label": "(+1) us-gaap:DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefitsEmployeeBenefits"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:DeferredTaxAssetsOther",
+                "label": "(+1) us-gaap:DeferredTaxAssetsOther"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ]
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:DeferredTaxAssetsValuationAllowance",
+              "label": "(-1) us-gaap:DeferredTaxAssetsValuationAllowance"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ]
+        ]
+      ],
+      [
+        "concept",
+        {
+          "name": "us-gaap:IncomeTaxExpenseBenefitIntraperiodTaxAllocation",
+          "label": "us-gaap:IncomeTaxExpenseBenefitIntraperiodTaxAllocation"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:CurrentIncomeTaxExpenseBenefit",
+            "label": "(+1) us-gaap:CurrentIncomeTaxExpenseBenefit"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:CurrentFederalTaxExpenseBenefit",
+              "label": "(+1) us-gaap:CurrentFederalTaxExpenseBenefit"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:CurrentStateAndLocalTaxExpenseBenefit",
+              "label": "(+1) us-gaap:CurrentStateAndLocalTaxExpenseBenefit"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:CurrentForeignTaxExpenseBenefit",
+              "label": "(+1) us-gaap:CurrentForeignTaxExpenseBenefit"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredIncomeTaxExpenseBenefit",
+            "label": "(+1) us-gaap:DeferredIncomeTaxExpenseBenefit"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureIncomeTaxesDetailsCalc2",
+        "definition": "http://www.aarcorp.com/role/DisclosureIncomeTaxesDetailsCalc2"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:IncomeTaxExpenseBenefitIntraperiodTaxAllocation",
+          "label": "us-gaap:IncomeTaxExpenseBenefitIntraperiodTaxAllocation"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate",
+            "label": "(+1) us-gaap:IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxReconciliationChangeInEnactedTaxRate",
+            "label": "(+1) us-gaap:IncomeTaxReconciliationChangeInEnactedTaxRate"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxReconciliationStateAndLocalIncomeTaxes",
+            "label": "(+1) us-gaap:IncomeTaxReconciliationStateAndLocalIncomeTaxes"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxReconciliationOtherAdjustments",
+            "label": "(+1) us-gaap:IncomeTaxReconciliationOtherAdjustments"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxReconciliationChangeInDeferredTaxAssetsValuationAllowance",
+            "label": "(+1) us-gaap:IncomeTaxReconciliationChangeInDeferredTaxAssetsValuationAllowance"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureLeasesDetails",
+        "definition": "http://www.aarcorp.com/role/DisclosureLeasesDetails"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:LeaseCost",
+          "label": "us-gaap:LeaseCost"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:OperatingLeaseCost",
+            "label": "(+1) us-gaap:OperatingLeaseCost"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:ShortTermLeaseCost",
+            "label": "(+1) us-gaap:ShortTermLeaseCost"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:VariableLeaseCost",
+            "label": "(+1) us-gaap:VariableLeaseCost"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureLeasesMaturitiesDetails",
+        "definition": "http://www.aarcorp.com/role/DisclosureLeasesMaturitiesDetails"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:LesseeOperatingLeaseLiabilityPaymentsDue",
+          "label": "us-gaap:LesseeOperatingLeaseLiabilityPaymentsDue"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueYearFive",
+            "label": "(+1) us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueYearFive"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueNextTwelveMonths",
+            "label": "(+1) us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueNextTwelveMonths"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueYearFour",
+            "label": "(+1) us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueYearFour"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueYearThree",
+            "label": "(+1) us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueYearThree"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueYearTwo",
+            "label": "(+1) us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueYearTwo"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive",
+            "label": "(+1) us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureLeasesOperatingLeaseCostCalc2Details",
+        "definition": "http://www.aarcorp.com/role/DisclosureLeasesOperatingLeaseCostCalc2Details"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:LesseeOperatingLeaseLiabilityPaymentsDue",
+          "label": "us-gaap:LesseeOperatingLeaseLiabilityPaymentsDue"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
+            "label": "(+1) us-gaap:LesseeOperatingLeaseLiabilityUndiscountedExcessAmount"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OperatingLeaseLiability",
+            "label": "(+1) us-gaap:OperatingLeaseLiability"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureOtherNonCurrentAssetsDetails",
+        "definition": "http://www.aarcorp.com/role/DisclosureOtherNonCurrentAssetsDetails"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:OtherAssetsNoncurrent",
+          "label": "us-gaap:OtherAssetsNoncurrent"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:ContractWithCustomerAssetNetNoncurrent",
+            "label": "(+1) us-gaap:ContractWithCustomerAssetNetNoncurrent"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredCompensationPlanAssets",
+            "label": "(+1) us-gaap:DeferredCompensationPlanAssets"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:CashSurrenderValueOfLifeInsurance",
+            "label": "(+1) us-gaap:CashSurrenderValueOfLifeInsurance"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:EquityMethodInvestments",
+            "label": "(+1) us-gaap:EquityMethodInvestments"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherAssetsMiscellaneousNoncurrent",
+            "label": "(+1) us-gaap:OtherAssetsMiscellaneousNoncurrent"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureSummaryOfSignificantAccountingPoliciesContractAssetsAndLiabilitiesAndRemainingPerformanceObligationDetails",
+        "definition": "http://www.aarcorp.com/role/DisclosureSummaryOfSignificantAccountingPoliciesContractAssetsAndLiabilitiesAndRemainingPerformanceObligationDetails"
+      },
+      {}
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureSummaryOfSignificantAccountingPoliciesIntangiblesDetails",
+        "definition": "http://www.aarcorp.com/role/DisclosureSummaryOfSignificantAccountingPoliciesIntangiblesDetails"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:IntangibleAssetsNetExcludingGoodwill",
+          "label": "us-gaap:IntangibleAssetsNetExcludingGoodwill"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:IndefiniteLivedTrademarks",
+            "label": "(+1) us-gaap:IndefiniteLivedTrademarks"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:FiniteLivedIntangibleAssetsNet",
+            "label": "(+1) us-gaap:FiniteLivedIntangibleAssetsNet"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:FiniteLivedIntangibleAssetsAccumulatedAmortization",
+              "label": "(-1) us-gaap:FiniteLivedIntangibleAssetsAccumulatedAmortization"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:FiniteLivedIntangibleAssetsGross",
+              "label": "(+1) us-gaap:FiniteLivedIntangibleAssetsGross"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ]
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/DisclosureSummaryOfSignificantAccountingPoliciesInventoriesDetails",
+        "definition": "http://www.aarcorp.com/role/DisclosureSummaryOfSignificantAccountingPoliciesInventoriesDetails"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:InventoryNet",
+          "label": "us-gaap:InventoryNet"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:InventoryFinishedGoodsNetOfReserves",
+            "label": "(+1) us-gaap:InventoryFinishedGoodsNetOfReserves"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:InventoryRawMaterialsAndPurchasedPartsNetOfReserves",
+            "label": "(+1) us-gaap:InventoryRawMaterialsAndPurchasedPartsNetOfReserves"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:InventoryWorkInProcessNetOfReserves",
+            "label": "(+1) us-gaap:InventoryWorkInProcessNetOfReserves"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/StatementConsolidatedBalanceSheets",
+        "definition": "http://www.aarcorp.com/role/StatementConsolidatedBalanceSheets"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:Assets",
+          "label": "us-gaap:Assets"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:AssetsCurrent",
+            "label": "(+1) us-gaap:AssetsCurrent"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "label": "(+1) us-gaap:CashAndCashEquivalentsAtCarryingValue"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:RestrictedCashAndCashEquivalentsAtCarryingValue",
+              "label": "(+1) us-gaap:RestrictedCashAndCashEquivalentsAtCarryingValue"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:ReceivablesNetCurrent",
+              "label": "(+1) us-gaap:ReceivablesNetCurrent"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:ContractWithCustomerAssetNetCurrent",
+              "label": "(+1) us-gaap:ContractWithCustomerAssetNetCurrent"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:InventoryNet",
+              "label": "(+1) us-gaap:InventoryNet"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:AssetsOfDisposalGroupIncludingDiscontinuedOperation",
+              "label": "(+1) us-gaap:AssetsOfDisposalGroupIncludingDiscontinuedOperation"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:OtherAssetsCurrent",
+              "label": "(+1) us-gaap:OtherAssetsCurrent"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:PropertyPlantAndEquipmentNet",
+            "label": "(+1) us-gaap:PropertyPlantAndEquipmentNet"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:PropertyPlantAndEquipmentGross",
+              "label": "(+1) us-gaap:PropertyPlantAndEquipmentGross"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            },
+            [
+              "concept",
+              {
+                "name": "us-gaap:Land",
+                "label": "(+1) us-gaap:Land"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:BuildingsAndImprovementsGross",
+                "label": "(+1) us-gaap:BuildingsAndImprovementsGross"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ]
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment",
+              "label": "(-1) us-gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ]
+        ]
+      ],
+      [
+        "concept",
+        {
+          "name": "us-gaap:LiabilitiesAndStockholdersEquity",
+          "label": "us-gaap:LiabilitiesAndStockholdersEquity"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:LiabilitiesCurrent",
+            "label": "(+1) us-gaap:LiabilitiesCurrent"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:AccountsPayableCurrent",
+              "label": "(+1) us-gaap:AccountsPayableCurrent"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:AccruedLiabilitiesCurrent",
+              "label": "(+1) us-gaap:AccruedLiabilitiesCurrent"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:LiabilitiesOfDisposalGroupIncludingDiscontinuedOperationCurrent",
+              "label": "(+1) us-gaap:LiabilitiesOfDisposalGroupIncludingDiscontinuedOperationCurrent"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:LiabilitiesNoncurrent",
+            "label": "(+1) us-gaap:LiabilitiesNoncurrent"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:DeferredRevenueNoncurrent",
+              "label": "(+1) us-gaap:DeferredRevenueNoncurrent"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:LongTermDebtNoncurrent",
+              "label": "(+1) us-gaap:LongTermDebtNoncurrent"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:OperatingLeaseLiabilityNoncurrent",
+              "label": "(+1) us-gaap:OperatingLeaseLiabilityNoncurrent"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:OtherLiabilities",
+              "label": "(+1) us-gaap:OtherLiabilities"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+            "label": "(+1) us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:PreferredStockValue",
+              "label": "(+1) us-gaap:PreferredStockValue"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:CommonStockValue",
+              "label": "(+1) us-gaap:CommonStockValue"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:AdditionalPaidInCapitalCommonStock",
+              "label": "(+1) us-gaap:AdditionalPaidInCapitalCommonStock"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:RetainedEarningsAccumulatedDeficit",
+              "label": "(+1) us-gaap:RetainedEarningsAccumulatedDeficit"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:TreasuryStockCommonValue",
+              "label": "(-1) us-gaap:TreasuryStockCommonValue"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+              "label": "(+1) us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ]
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/StatementConsolidatedStatementsOfCashFlows",
+        "definition": "http://www.aarcorp.com/role/StatementConsolidatedStatementsOfCashFlows"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+          "label": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+            "label": "(+1) us-gaap:NetCashProvidedByUsedInOperatingActivities"
+          },
+          {
+            "weight": "1 "
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
+              "label": "(+1) us-gaap:NetCashProvidedByUsedInOperatingActivitiesContinuingOperations"
+            },
+            {
+              "weight": "1 "
+            },
+            [
+              "concept",
+              {
+                "name": "us-gaap:IncomeLossFromContinuingOperations",
+                "label": "(+1) us-gaap:IncomeLossFromContinuingOperations"
+              },
+              {
+                "weight": "1 ",
+                "balance": "credit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:DepreciationDepletionAndAmortization",
+                "label": "(+1) us-gaap:DepreciationDepletionAndAmortization"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:ProvisionForDoubtfulAccounts",
+                "label": "(+1) us-gaap:ProvisionForDoubtfulAccounts"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:ShareBasedCompensation",
+                "label": "(+1) us-gaap:ShareBasedCompensation"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:ContractWithCustomerAssetCreditLossExpense",
+                "label": "(+1) us-gaap:ContractWithCustomerAssetCreditLossExpense"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:AssetImpairmentCharges",
+                "label": "(+1) us-gaap:AssetImpairmentCharges"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:IncomeLossFromEquityMethodInvestments",
+                "label": "(-1) us-gaap:IncomeLossFromEquityMethodInvestments"
+              },
+              {
+                "weight": "-1 ",
+                "balance": "credit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:DeferredIncomeTaxExpenseBenefit",
+                "label": "(+1) us-gaap:DeferredIncomeTaxExpenseBenefit"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:IncreaseDecreaseInAccountsReceivable",
+                "label": "(-1) us-gaap:IncreaseDecreaseInAccountsReceivable"
+              },
+              {
+                "weight": "-1 ",
+                "balance": "credit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:IncreaseDecreaseInInventories",
+                "label": "(-1) us-gaap:IncreaseDecreaseInInventories"
+              },
+              {
+                "weight": "-1 ",
+                "balance": "credit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:IncreaseDecreaseInContractWithCustomerAsset",
+                "label": "(-1) us-gaap:IncreaseDecreaseInContractWithCustomerAsset"
+              },
+              {
+                "weight": "-1 ",
+                "balance": "credit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:IncreaseDecreaseInDeferredRevenue",
+                "label": "(+1) us-gaap:IncreaseDecreaseInDeferredRevenue"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:IncreaseDecreaseInAccountsPayable",
+                "label": "(+1) us-gaap:IncreaseDecreaseInAccountsPayable"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:IncreaseDecreaseInOtherAccruedLiabilities",
+                "label": "(+1) us-gaap:IncreaseDecreaseInOtherAccruedLiabilities"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:IncreaseDecreaseInOtherOperatingCapitalNet",
+                "label": "(-1) us-gaap:IncreaseDecreaseInOtherOperatingCapitalNet"
+              },
+              {
+                "weight": "-1 ",
+                "balance": "credit"
+              }
+            ]
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:CashProvidedByUsedInOperatingActivitiesDiscontinuedOperations",
+              "label": "(+1) us-gaap:CashProvidedByUsedInOperatingActivitiesDiscontinuedOperations"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:NetCashProvidedByUsedInInvestingActivities",
+            "label": "(+1) us-gaap:NetCashProvidedByUsedInInvestingActivities"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:NetCashProvidedByUsedInInvestingActivitiesContinuingOperations",
+              "label": "(+1) us-gaap:NetCashProvidedByUsedInInvestingActivitiesContinuingOperations"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            },
+            [
+              "concept",
+              {
+                "name": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+                "label": "(-1) us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+              },
+              {
+                "weight": "-1 ",
+                "balance": "credit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:ProceedsFromSaleOfProductiveAssets",
+                "label": "(+1) us-gaap:ProceedsFromSaleOfProductiveAssets"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired",
+                "label": "(-1) us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired"
+              },
+              {
+                "weight": "-1 ",
+                "balance": "credit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:PaymentsForProceedsFromOtherInvestingActivities",
+                "label": "(-1) us-gaap:PaymentsForProceedsFromOtherInvestingActivities"
+              },
+              {
+                "weight": "-1 ",
+                "balance": "credit"
+              }
+            ]
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:CashProvidedByUsedInInvestingActivitiesDiscontinuedOperations",
+              "label": "(+1) us-gaap:CashProvidedByUsedInInvestingActivitiesDiscontinuedOperations"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:NetCashProvidedByUsedInFinancingActivities",
+            "label": "(+1) us-gaap:NetCashProvidedByUsedInFinancingActivities"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:NetCashProvidedByUsedInFinancingActivitiesContinuingOperations",
+              "label": "(+1) us-gaap:NetCashProvidedByUsedInFinancingActivitiesContinuingOperations"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            },
+            [
+              "concept",
+              {
+                "name": "us-gaap:ProceedsFromRepaymentsOfShortTermDebt",
+                "label": "(+1) us-gaap:ProceedsFromRepaymentsOfShortTermDebt"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:RepaymentsOfLongTermDebt",
+                "label": "(-1) us-gaap:RepaymentsOfLongTermDebt"
+              },
+              {
+                "weight": "-1 ",
+                "balance": "credit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:ProceedsFromIssuanceOfLongTermDebt",
+                "label": "(+1) us-gaap:ProceedsFromIssuanceOfLongTermDebt"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+                "label": "(-1) us-gaap:PaymentsForRepurchaseOfCommonStock"
+              },
+              {
+                "weight": "-1 ",
+                "balance": "credit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:PaymentsOfDividendsCommonStock",
+                "label": "(-1) us-gaap:PaymentsOfDividendsCommonStock"
+              },
+              {
+                "weight": "-1 ",
+                "balance": "credit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:ProceedsFromPaymentsForOtherFinancingActivities",
+                "label": "(+1) us-gaap:ProceedsFromPaymentsForOtherFinancingActivities"
+              },
+              {
+                "weight": "1 ",
+                "balance": "debit"
+              }
+            ]
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:CashProvidedByUsedInFinancingActivitiesDiscontinuedOperations",
+              "label": "(+1) us-gaap:CashProvidedByUsedInFinancingActivitiesDiscontinuedOperations"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations",
+            "label": "(+1) us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/StatementConsolidatedStatementsOfCashFlowsCalc2",
+        "definition": "http://www.aarcorp.com/role/StatementConsolidatedStatementsOfCashFlowsCalc2"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:ProfitLoss",
+          "label": "us-gaap:ProfitLoss"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTax",
+            "label": "(+1) us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTax"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeLossFromContinuingOperations",
+            "label": "(+1) us-gaap:IncomeLossFromContinuingOperations"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/StatementConsolidatedStatementsOfComprehensiveIncomeLoss",
+        "definition": "http://www.aarcorp.com/role/StatementConsolidatedStatementsOfComprehensiveIncomeLoss"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:ComprehensiveIncomeNetOfTax",
+          "label": "us-gaap:ComprehensiveIncomeNetOfTax"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherComprehensiveIncomeLossNetOfTax",
+            "label": "(+1) us-gaap:OtherComprehensiveIncomeLossNetOfTax"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax",
+              "label": "(+1) us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax",
+              "label": "(-1) us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "debit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:NetIncomeLoss",
+            "label": "(+1) us-gaap:NetIncomeLoss"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.aarcorp.com/role/StatementConsolidatedStatementsOfIncome",
+        "definition": "http://www.aarcorp.com/role/StatementConsolidatedStatementsOfIncome"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:EarningsPerShareBasic",
+          "label": "us-gaap:EarningsPerShareBasic"
+        },
+        {},
+        [
+          "concept",
+          {
+            "name": "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare",
+            "label": "(+1) us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare"
+          },
+          {
+            "weight": "1 "
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeLossFromContinuingOperationsPerBasicShare",
+            "label": "(+1) us-gaap:IncomeLossFromContinuingOperationsPerBasicShare"
+          },
+          {
+            "weight": "1 "
+          }
+        ]
+      ],
+      [
+        "concept",
+        {
+          "name": "us-gaap:EarningsPerShareDiluted",
+          "label": "us-gaap:EarningsPerShareDiluted"
+        },
+        {},
+        [
+          "concept",
+          {
+            "name": "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare",
+            "label": "(+1) us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare"
+          },
+          {
+            "weight": "1 "
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare",
+            "label": "(+1) us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare"
+          },
+          {
+            "weight": "1 "
+          }
+        ]
+      ],
+      [
+        "concept",
+        {
+          "name": "us-gaap:NetIncomeLoss",
+          "label": "us-gaap:NetIncomeLoss"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTax",
+            "label": "(+1) us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTax"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeLossFromContinuingOperations",
+            "label": "(+1) us-gaap:IncomeLossFromContinuingOperations"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:IncomeTaxExpenseBenefit",
+              "label": "(-1) us-gaap:IncomeTaxExpenseBenefit"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "debit"
+            }
+          ]
+        ]
+      ]
+    ]
+  ]
+}

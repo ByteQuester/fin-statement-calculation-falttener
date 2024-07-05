@@ -1,0 +1,7 @@
+furo==2024.5.6
+myst-parser==3.0.1
+sphinx==7.1.2 ; python_version <= "3.8"
+sphinx==7.2.6 ; python_version > "3.8"
+sphinx-autobuild==2021.3.14
+sphinx-autodoc2==0.5.0
+sphinx-copybutton==0.5.2

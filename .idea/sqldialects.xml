@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/assets/mysql/init.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/python_process/JSONProcessor/parseJSON.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/python_process/NetworkXProcessor/graphX.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/python_process/XMLProcessor/downloadXML.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/python_service/service/dataAccess/indexDataAccess.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/setup.py" dialect="MySQL" />
+  </component>
+</project>
