@@ -13,7 +13,7 @@ This project provides a command-line tool to automate the extraction, analysis, 
 
 1. **Clone the Repository:**
    ```bash
-   git clone <your_repository_url>
+   git clone [<your_repository_url>](https://github.com/ByteQuester/fin-statement-calculation-falttener)
    ```
 
 2. **Create a Virtual Environment:**
