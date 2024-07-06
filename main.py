@@ -11,6 +11,8 @@ from src.main.python_service.service.services.dataServices import DataServices
 from src.main.python_process.XMLProcessor.processXMLFiles import process_xml_files
 from src.main.python_process.JSONProcessor.parseJSON import process_calculations_with_hierarchy
 from src.main.python_process.NetworkXProcessor.graphX import process_all_tables
+from src.main.python_process.XMLProcessor.downloadXML import get_filtered_data, modify_url, rm_main
+
 
 # Set up basic logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -24,6 +26,16 @@ def main(start_year: int, end_year: int):
     # Fetch financial data for the given years
     logging.info(f"Fetching financial data for years {start_year} to {end_year}")
     data_services.fetch_ticker_financials_by_year_range(start_year, end_year)
+
+    # Get the filtered data
+    df = get_filtered_data()
+
+    # Modify the URL
+    df['modified_url'] = df['url'].apply(modify_url)
+
+    # Download the XML files
+    logging.info("Downloading XML files")
+    results_df = rm_main(df)
 
     # Process XML files
     xml_directory = './src/main/python_process/XMLProcessor/fetched_xml'

@@ -6,6 +6,9 @@ import re
 from urllib.parse import urljoin
 import os
 
+from src.main.python_service.config import config
+
+
 
 # Assuming these functions are part of the necessary modules
 
@@ -15,11 +18,12 @@ def get_filtered_data():
     Returns a DataFrame with the filtered data.
     """
     connection = pymysql.connect(
-        host='localhost',
-        user='root',
-        password='mysqlR0cks!',
-        database='findb'
+        host=config.DB_HOST_NAME,
+        user=config.DB_USER,
+        passwd=config.DB_PASSWORD,
+        db=config.DB_NAME
     )
+
 
     query = """
     SELECT s.cik, s.year, s.url
@@ -49,7 +53,7 @@ def download_cal_file(base_url, cik, year):
     modified_url = "https://www.sec.gov/Archives/"
     url = f"{modified_url}{base_url}"
     headers = {"User-Agent": "user@gmail.com"}  # Mimic browser request
-    save_directory = "./fetched_xml"  # Hardcoded save directory
+    save_directory = "src/main/python_process/XMLProcessor/fetched_xml"  # Hardcoded save directory
 
     try:
         response = requests.get(url, headers=headers)
