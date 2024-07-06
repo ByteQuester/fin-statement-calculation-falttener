@@ -1,10 +1,16 @@
 import os
+import sys
+
+# Add the project root to sys.path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 import logging
-from python_service.service.dataAccess.indexDataAccess import IndexDataAccess
-from python_service.service.services.dataServices import DataServices
-from python_process.XMLProcessor.processXMLFiles import process_xml_files
-from python_process.JSONProcessor.parseJSON import process_calculations_with_hierarchy
-from python_process.NetworkXProcessor.graphX import process_all_tables
+from src.main.python_service.service.dataAccess.indexDataAccess import IndexDataAccess
+from src.main.python_service.service.sec.SecGov import SecGov
+from src.main.python_service.service.services.dataServices import DataServices
+from src.main.python_process.XMLProcessor.processXMLFiles import process_xml_files
+from src.main.python_process.JSONProcessor.parseJSON import process_calculations_with_hierarchy
+from src.main.python_process.NetworkXProcessor.graphX import process_all_tables
 
 # Set up basic logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

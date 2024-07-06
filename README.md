@@ -32,7 +32,7 @@ This project provides a command-line tool to automate the extraction, analysis, 
    ```
 
 4. **Configuration:**
-   - Create a `config.py` file in `src/main/python_service/config/` with your database credentials (see example in `config.py`).
+   - Create a `config.py` file in `src/main/python_service/config/` with your database credentials (see example in `config.py`) or simply run database setup.
 
 ## Usage
 
@@ -40,7 +40,7 @@ This project provides a command-line tool to automate the extraction, analysis, 
 
 1. **Database Setup:**
    ```bash
-   python src/main/setup.py
+   python setup.py
    ```
 
 2. **Add Financial Data (by CIK and Year):**
@@ -56,7 +56,7 @@ This project provides a command-line tool to automate the extraction, analysis, 
 ### Full Pipeline
 
 ```bash
-python src/main/main.py --start_year <YEAR> --end_year <YEAR>
+python main.py --start_year <YEAR> --end_year <YEAR>
 ```
 
 ## Project Structure
@@ -64,10 +64,10 @@ python src/main/main.py --start_year <YEAR> --end_year <YEAR>
 ```
 project/
     cli.py      # Command-line interface
+    setup.py    # Database setup
+    main.py     # Full pipeline script
     src/
         main/
-            setup.py    # Database setup
-            main.py     # Full pipeline script
             python_service/  # Data access and service logic
             python_process/  # Data processing and analysis logic
     requirements.txt
