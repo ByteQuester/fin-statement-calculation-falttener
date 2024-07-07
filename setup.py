@@ -4,7 +4,7 @@ import click
 CONFIG_FILE_PATH = 'src/main/python_service/config/config.py'
 
 
-def update_config_file(db_host, db_user, dbw_password, db_name):
+def update_config_file(db_host, db_user, db_password, db_name):
     config_lines = [
         f"DB_HOST_NAME = '{db_host}'\n",
         f"DB_USER = '{db_user}'\n",

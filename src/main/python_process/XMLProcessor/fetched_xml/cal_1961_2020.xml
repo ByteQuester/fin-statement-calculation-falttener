@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+    <!-- Field: Doc-Info; Name: Generator; Value: GoFiler Complete; Version: 5.3a -->
+    <!-- Field: Doc-Info; Name: VendorURI; Value: http://www.novaworks.co -->
+    <!-- Field: Doc-Info; Name: Source; Value: wdddk2019.xfr; Date: 2020%2D03%2D27T18:17:56Z -->
+    <!-- Field: Doc-Info; Name: Status; Value: 0x00000000 -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <link:roleRef roleURI="http://WDDD/role/DocumentAndEntityInformation" xlink:href="wddd-20191231.xsd#DocumentAndEntityInformation" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/BalanceSheets" xlink:href="wddd-20191231.xsd#BalanceSheets" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/BalanceSheetsParenthetical" xlink:href="wddd-20191231.xsd#BalanceSheetsParenthetical" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/StatementsOfOperations" xlink:href="wddd-20191231.xsd#StatementsOfOperations" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/ShareholdersEquity" xlink:href="wddd-20191231.xsd#ShareholdersEquity" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/StatementsOfCashFlows" xlink:href="wddd-20191231.xsd#StatementsOfCashFlows" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note1-GoingConcern" xlink:href="wddd-20191231.xsd#Note1-GoingConcern" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note2-DescriptionOfBusinessAndSummaryOfAcctingPolicies" xlink:href="wddd-20191231.xsd#Note2-DescriptionOfBusinessAndSummaryOfAcctingPolicies" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note3-NotesPayable" xlink:href="wddd-20191231.xsd#Note3-NotesPayable" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note4-Equity" xlink:href="wddd-20191231.xsd#Note4-Equity" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note5-IncomeTaxes" xlink:href="wddd-20191231.xsd#Note5-IncomeTaxes" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note6-CommitmentsAndContingencies" xlink:href="wddd-20191231.xsd#Note6-CommitmentsAndContingencies" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note7-RelatedPartyTransactions" xlink:href="wddd-20191231.xsd#Note7-RelatedPartyTransactions" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note8-Patents" xlink:href="wddd-20191231.xsd#Note8-Patents" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note9-SaleOfMarketableSecurities" xlink:href="wddd-20191231.xsd#Note9-SaleOfMarketableSecurities" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note10-AccruedExpenses" xlink:href="wddd-20191231.xsd#Note10-AccruedExpenses" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note11-ConvertibleNoteReceivableRelatedParty" xlink:href="wddd-20191231.xsd#Note11-ConvertibleNoteReceivableRelatedParty" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note12-SubsequentEvents" xlink:href="wddd-20191231.xsd#Note12-SubsequentEvents" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note2-DescriptionOfBusinessAndSummaryOfAcctingPoliciesPolicies" xlink:href="wddd-20191231.xsd#Note2-DescriptionOfBusinessAndSummaryOfAcctingPoliciesPolicies" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note2-NotesPayableTables" xlink:href="wddd-20191231.xsd#Note2-NotesPayableTables" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note5-IncomeTaxesTables" xlink:href="wddd-20191231.xsd#Note5-IncomeTaxesTables" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note1-GoingConcernDetailsNarrative" xlink:href="wddd-20191231.xsd#Note1-GoingConcernDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note2-DescriptionOfBusinessAndSummaryOfAcctingPoliciesDetailsNarrative" xlink:href="wddd-20191231.xsd#Note2-DescriptionOfBusinessAndSummaryOfAcctingPoliciesDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note5-IncomeTaxesDetailsNarrative" xlink:href="wddd-20191231.xsd#Note5-IncomeTaxesDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note6-CommitmentsAndContingenciesDetailsNarrative" xlink:href="wddd-20191231.xsd#Note6-CommitmentsAndContingenciesDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note7-RelatedPartyTransactionsDetailsNarrative" xlink:href="wddd-20191231.xsd#Note7-RelatedPartyTransactionsDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note9-SaleOfMarketableSecuritiesDetailsNarrative" xlink:href="wddd-20191231.xsd#Note9-SaleOfMarketableSecuritiesDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note2-NotesPayableDetails" xlink:href="wddd-20191231.xsd#Note2-NotesPayableDetails" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note4-Equity-StockWarrantAndOptionTableDetails" xlink:href="wddd-20191231.xsd#Note4-Equity-StockWarrantAndOptionTableDetails" xlink:type="simple" />
+    <link:roleRef roleURI="http://WDDD/role/Note5-IncomeTaxes-ReconciliationOfIncomeTaxesComputedAtFederalAndStateStaturoryIncomeDetails" xlink:href="wddd-20191231.xsd#Note5-IncomeTaxes-ReconciliationOfIncomeTaxesComputedAtFederalAndStateStaturoryIncomeDetails" xlink:type="simple" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/DocumentAndEntityInformation" xlink:title="00000001 - Document - Document and Entity Information" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/BalanceSheets" xlink:title="00000002 - Statement - Balance Sheets">
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_AssetsCurrent" xlink:label="loc_us-gaapAssetsCurrent" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_CashAndCashEquivalentsAtCarryingValue" xlink:label="loc_us-gaapCashAndCashEquivalentsAtCarryingValue" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssetsCurrent" xlink:to="loc_us-gaapCashAndCashEquivalentsAtCarryingValue" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_Assets" xlink:label="loc_us-gaapAssets" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssets" xlink:to="loc_us-gaapAssetsCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_NotesReceivableRelatedParties" xlink:label="loc_us-gaapNotesReceivableRelatedParties" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssets" xlink:to="loc_us-gaapNotesReceivableRelatedParties" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_InterestReceivable" xlink:label="loc_us-gaapInterestReceivable" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssets" xlink:to="loc_us-gaapInterestReceivable" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_LiabilitiesCurrent" xlink:label="loc_us-gaapLiabilitiesCurrent" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_AccountsPayableCurrent" xlink:label="loc_us-gaapAccountsPayableCurrent" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesCurrent" xlink:to="loc_us-gaapAccountsPayableCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_AccountsPayableAndAccruedLiabilitiesCurrent" xlink:label="loc_us-gaapAccountsPayableAndAccruedLiabilitiesCurrent" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesCurrent" xlink:to="loc_us-gaapAccountsPayableAndAccruedLiabilitiesCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_NotesPayableCurrent" xlink:label="loc_us-gaapNotesPayableCurrent" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesCurrent" xlink:to="loc_us-gaapNotesPayableCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_NotesAndLoansPayable" xlink:label="loc_us-gaapNotesAndLoansPayable" />
+      <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesCurrent" xlink:to="loc_us-gaapNotesAndLoansPayable" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_NotesPayableRelatedPartiesClassifiedCurrent" xlink:label="loc_us-gaapNotesPayableRelatedPartiesClassifiedCurrent" />
+      <link:calculationArc order="5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesCurrent" xlink:to="loc_us-gaapNotesPayableRelatedPartiesClassifiedCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_StockholdersEquity" xlink:label="loc_us-gaapStockholdersEquity" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_CommonStockValueOutstanding" xlink:label="loc_us-gaapCommonStockValueOutstanding" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapCommonStockValueOutstanding" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_AdditionalPaidInCapital" xlink:label="loc_us-gaapAdditionalPaidInCapital" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapAdditionalPaidInCapital" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_WarrantsAndRightsOutstanding" xlink:label="loc_us-gaapWarrantsAndRightsOutstanding" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapWarrantsAndRightsOutstanding" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_RetainedEarningsAccumulatedDeficit" xlink:label="loc_us-gaapRetainedEarningsAccumulatedDeficit" />
+      <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapRetainedEarningsAccumulatedDeficit" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_LiabilitiesAndStockholdersEquity" xlink:label="loc_us-gaapLiabilitiesAndStockholdersEquity" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesAndStockholdersEquity" xlink:to="loc_us-gaapLiabilitiesCurrent" xlink:type="arc" weight="1" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesAndStockholdersEquity" xlink:to="loc_us-gaapStockholdersEquity" xlink:type="arc" weight="1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/BalanceSheetsParenthetical" xlink:title="00000003 - Statement - Balance Sheets (Parenthetical)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/StatementsOfOperations" xlink:title="00000004 - Statement - Statements of Operations">
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_GrossProfit" xlink:label="loc_us-gaapGrossProfit" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_Revenues" xlink:label="loc_us-gaapRevenues" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapGrossProfit" xlink:to="loc_us-gaapRevenues" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_CostOfRevenue" xlink:label="loc_us-gaapCostOfRevenue" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapGrossProfit" xlink:to="loc_us-gaapCostOfRevenue" xlink:type="arc" weight="-1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/ShareholdersEquity" xlink:title="00000005 - Statement - Shareholders Equity" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/StatementsOfCashFlows" xlink:title="00000006 - Statement - Statements of Cash Flows">
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivities" xlink:label="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_NetIncomeLoss" xlink:label="loc_us-gaapNetIncomeLoss" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapNetIncomeLoss" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_RealizedGainLossOnMarketableSecuritiesCostMethodInvestmentsAndOtherInvestments" xlink:label="loc_us-gaapRealizedGainLossOnMarketableSecuritiesCostMethodInvestmentsAndOtherInvestments" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapRealizedGainLossOnMarketableSecuritiesCostMethodInvestmentsAndOtherInvestments" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_FairValueAdjustmentOfWarrants" xlink:label="loc_us-gaapFairValueAdjustmentOfWarrants" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapFairValueAdjustmentOfWarrants" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="wddd-20191231.xsd#WDDD_FairValueOfStockOptionsIssued" xlink:label="loc_WDDDFairValueOfStockOptionsIssued" />
+      <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_WDDDFairValueOfStockOptionsIssued" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_IncreaseDecreaseInAccountsPayableAndAccruedLiabilities" xlink:label="loc_us-gaapIncreaseDecreaseInAccountsPayableAndAccruedLiabilities" />
+      <link:calculationArc order="5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapIncreaseDecreaseInAccountsPayableAndAccruedLiabilities" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_IncreaseDecreaseInDueFromRelatedParties" xlink:label="loc_us-gaapIncreaseDecreaseInDueFromRelatedParties" />
+      <link:calculationArc order="6" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapIncreaseDecreaseInDueFromRelatedParties" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_NetCashProvidedByUsedInFinancingActivities" xlink:label="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_RepaymentsOfNotesPayable" xlink:label="loc_us-gaapRepaymentsOfNotesPayable" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_us-gaapRepaymentsOfNotesPayable" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_RepaymentOfNotesReceivableFromRelatedParties" xlink:label="loc_us-gaapRepaymentOfNotesReceivableFromRelatedParties" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_us-gaapRepaymentOfNotesReceivableFromRelatedParties" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromWarrantExercises" xlink:label="loc_us-gaapProceedsFromWarrantExercises" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_us-gaapProceedsFromWarrantExercises" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2018/elts/us-gaap-2018-01-31.xsd#us-gaap_CashPeriodIncreaseDecrease" xlink:label="loc_us-gaapCashPeriodIncreaseDecrease" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashPeriodIncreaseDecrease" xlink:to="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:type="arc" weight="1" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashPeriodIncreaseDecrease" xlink:to="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:type="arc" weight="1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note1-GoingConcern" xlink:title="00000007 - Disclosure - NOTE 1 - GOING CONCERN" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note2-DescriptionOfBusinessAndSummaryOfAcctingPolicies" xlink:title="00000008 - Disclosure - NOTE 2 - DESCRIPTION OF BUSINESS AND SUMMARY OF ACCTING POLICIES" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note3-NotesPayable" xlink:title="00000009 - Disclosure - NOTE 3 - NOTES PAYABLE" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note4-Equity" xlink:title="00000010 - Disclosure - NOTE 4 - EQUITY" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note5-IncomeTaxes" xlink:title="00000011 - Disclosure - NOTE 5 - INCOME TAXES" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note6-CommitmentsAndContingencies" xlink:title="00000012 - Disclosure - NOTE 6 - COMMITMENTS AND CONTINGENCIES" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note7-RelatedPartyTransactions" xlink:title="00000013 - Disclosure - NOTE 7 - RELATED PARTY TRANSACTIONS" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note8-Patents" xlink:title="00000014 - Disclosure - NOTE 8 - PATENTS" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note9-SaleOfMarketableSecurities" xlink:title="00000015 - Disclosure - NOTE 9 - SALE OF MARKETABLE SECURITIES" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note10-AccruedExpenses" xlink:title="00000016 - Disclosure - NOTE 10 - ACCRUED EXPENSES" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note11-ConvertibleNoteReceivableRelatedParty" xlink:title="00000017 - Disclosure - NOTE 11 - CONVERTIBLE NOTE RECEIVABLE &#8211; RELATED PARTY" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note12-SubsequentEvents" xlink:title="00000018 - Disclosure - &#160;NOTE 12 - SUBSEQUENT EVENTS" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note2-DescriptionOfBusinessAndSummaryOfAcctingPoliciesPolicies" xlink:title="00000019 - Disclosure - NOTE 2 - DESCRIPTION OF BUSINESS AND SUMMARY OF ACCTING POLICIES (Policies)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note2-NotesPayableTables" xlink:title="00000020 - Disclosure - NOTE 2 - NOTES PAYABLE (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note5-IncomeTaxesTables" xlink:title="00000021 - Disclosure - NOTE 5 - INCOME TAXES (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note1-GoingConcernDetailsNarrative" xlink:title="00000022 - Disclosure - NOTE 1 - GOING CONCERN (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note2-DescriptionOfBusinessAndSummaryOfAcctingPoliciesDetailsNarrative" xlink:title="00000023 - Disclosure - NOTE 2 - DESCRIPTION OF BUSINESS AND SUMMARY OF ACCTING POLICIES (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note5-IncomeTaxesDetailsNarrative" xlink:title="00000024 - Disclosure - NOTE 5 - INCOME TAXES (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note6-CommitmentsAndContingenciesDetailsNarrative" xlink:title="00000025 - Disclosure - NOTE 6 - COMMITMENTS AND CONTINGENCIES (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note7-RelatedPartyTransactionsDetailsNarrative" xlink:title="00000026 - Disclosure - NOTE 7 - RELATED PARTY TRANSACTIONS (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note9-SaleOfMarketableSecuritiesDetailsNarrative" xlink:title="00000027 - Disclosure - NOTE 9 - SALE OF MARKETABLE SECURITIES (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note2-NotesPayableDetails" xlink:title="00000028 - Disclosure - NOTE 2 - NOTES PAYABLE  (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note4-Equity-StockWarrantAndOptionTableDetails" xlink:title="00000029 - Disclosure - NOTE 4 - EQUITY - Stock warrant and option table (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://WDDD/role/Note5-IncomeTaxes-ReconciliationOfIncomeTaxesComputedAtFederalAndStateStaturoryIncomeDetails" xlink:title="00000030 - Disclosure - NOTE 5 - INCOME TAXES - Reconciliation of income taxes computed at the federal and state staturory income  (Details)" />
+</link:linkbase>

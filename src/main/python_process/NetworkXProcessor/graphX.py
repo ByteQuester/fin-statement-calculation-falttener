@@ -3,17 +3,25 @@ from typing import List
 
 import pandas as pd
 import networkx as nx
+import re
 
 
 from src.main.python_service.service.dataAccess.indexDataAccess import IndexDataAccess
 
+def clean_concept_name(name):
+    return re.sub(r'\(\+\d\)\s', '', name)
 
 def rm_main(data):
     df = pd.DataFrame(data)
+    # Clean concept names
+    df['cleaned_concept'] = df['concept'].apply(clean_concept_name)
+    df['cleaned_sub_concept'] = df['sub_concept'].apply(clean_concept_name)
+
+
     G = nx.DiGraph()
 
     for _, row in df.iterrows():
-        G.add_edge(row['concept'], row['sub_concept'], weight=row['weight'])
+        G.add_edge(row['cleaned_concept'], row['cleaned_sub_concept'], weight=row['weight'])
 
     roots = [node for node in G.nodes() if G.in_degree(node) == 0]
 
@@ -23,10 +31,14 @@ def rm_main(data):
             for node in nodes:
                 levels[node] = level
 
-    df['level'] = df['sub_concept'].map(levels)
+    # Calculate the full ancestor path for each node
+    def get_full_ancestor_path(node):
+        ancestors = list(nx.ancestors(G, node))
+        ancestors.sort(key=lambda x: levels.get(x, float('inf')))  # Sort by level
+        return ancestors + [node]
 
-    # Fix root_concept calculation
-    df['root_concept'] = df['sub_concept'].apply(lambda node: list(nx.ancestors(G, node)) + [node])
+    df['level'] = df['cleaned_sub_concept'].map(levels)
+    df['root_concept'] = df['cleaned_sub_concept'].apply(lambda node: get_full_ancestor_path(node))
 
     return df  # Return the DataFrame
 

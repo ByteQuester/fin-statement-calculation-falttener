@@ -2,7 +2,7 @@ import os
 import concurrent.futures
 from . import parseXML
 
-def process_xml_files(directory, output_directory, arelle_path='src/main/python_process/Arelle-master/arelleCmdLine.py', python_path='/usr/bin/python3'):
+def process_xml_files(directory, output_directory, arelle_path='src/main/python_process/Arelle-master/arelleCmdLine.py', python_path='venv/bin/python'):
     os.makedirs(output_directory, exist_ok=True)
     xml_files = parseXML.get_xml_files(directory)
     args_list = [(xml_file, output_directory, arelle_path, python_path) for xml_file in xml_files]
